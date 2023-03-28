@@ -19,12 +19,12 @@ const GetData = () => {
             setTotal(pagination.total)
             setTimeout(()=>{
                 setLoading(false)
-            },2000)
+            },1000)
         }).catch((error)=>{
             console.log(error.message)
             setTimeout(()=>{
                 setLoading(false)
-            },2000)
+            },1000)
         })
     }
     useEffect(()=>{
